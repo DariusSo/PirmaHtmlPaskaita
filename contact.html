@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mano puslapis</title>
+    <style>
+    .menuButton {
+        background-color: #333;
+        font-size: 18px;
+        color: white;
+        border: 5px;
+        border-color: white;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .menuButton:hover{
+        background-color: black;
+    }
+    body {   
+        background-image: url('./background.jpg');
+        
+    }
+    .bigbig:hover{
+        font-size: 500px;
+        transition: 10s;
+    }
+    </style>
+</head>
+<body>
+    <div style="background-color: #333; height: 70px; vertical-align: middle; display: flex;">
+        <li><img src="./logo.png" style="width: 70px; height: 70px;"></li>
+        <ul style="display: flex; list-style-type: none;">
+            <li><a class="menuButton" href="./index.html">Pagrindinis</a></li>
+            <li><a class="menuButton" href="./about.html">Apie mus</a></li>
+            <li><a style="font-weight: bold;" class="menuButton" href="./contact.html">Kontaktai</a></li>
+        </ul>
+    </div>
+    <h2>
+        Susisiekite
+    </h2>
+    <form style="display: block;">
+        <label>Vardas</label><br>
+        <input type="text"><br>
+        <label>El pastas</label><br>
+        <input type="text"><br>
+        <label>Zinute</label><br>
+        <input style="height: 200px; width: 500px;" type="text"><br>
+        <button class="bigbig">Pateikti</button>
+    </form>
+
+</body>
+</html>

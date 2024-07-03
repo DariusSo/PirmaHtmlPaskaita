@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mano puslapis</title>
+    <style>
+    .menuButton {
+        background-color: #333;
+        font-size: 18px;
+        color: white;
+        border: 5px;
+        border-color: white;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+        
+    }
+    .menuButton:hover{
+        background-color: black;
+    }
+    .products {
+        max-height: 500px;
+        max-width: 250px;
+        padding: 15px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    body {   
+        background-image: url('./background.jpg');
+        
+    }
+    .products:hover{
+        max-height: 510px;
+        max-width: 260px;
+        cursor: crosshair;
+    }
+    </style>
+</head>
+<body>
+    <div style="background-color: #333; height: 70px; vertical-align: middle; display: flex;">
+        <li><img src="./logo.png" style="width: 70px; height: 70px;"></li>
+        <ul style="display: flex; list-style-type: none;">
+            <li><a style="font-weight: bold;" class="menuButton" href="./index.html">Pagrindinis</a></li>
+            <li><a class="menuButton" href="./about.html">Apie mus</a></li>
+            <li><a class="menuButton" href="./contact.html">Kontaktai</a></li>
+        </ul>
+    </div>
+    <div style="display: flex;">
+        <div class="products">
+            <div>
+                <img class="products" src="./1.jpg">
+            </div>
+            <h3 style="padding-left: 10px;">A Court Of Thorns And Roses</h3>
+        </div>
+        <div class="products">
+            <div>
+                <img class="products" src="./2.jpg">
+            </div>
+            <h3>Power</h3>
+        </div>
+        <div class="products">
+            <div>
+                <img class="products" src="./3.jpg">
+            </div>
+            <h3>Reckless</h3>
+        </div>
+        <div class="products">
+            <div>
+                <img class="products" src="./4.jpg">
+            </div>
+            <h3>Onyx Storm</h3>
+        </div>
+    </div>
+
+</body>
+</html>
